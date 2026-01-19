@@ -122,15 +122,6 @@ This design treats estimation as a **configurable hardware engine**, not a stati
 
 ---
 
-## Current Status
-
-- [ ] **MATLAB Golden Model:** Pending
-- [ ] **Fixed-Point Analysis:** Pending
-- [ ] **RTL Development:** Pending
-- [ ] **FPGA Synthesis:** Pending
-
----
-
 ## Intended Applications
 
 - Hybrid Energy Storage Systems (HESS)
