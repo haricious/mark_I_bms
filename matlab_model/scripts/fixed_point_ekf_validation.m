@@ -16,16 +16,9 @@ Vbat     = out.Vbat.Data;
 Ibat     = out.Ibat.Data;
 Temp     = out.Temp.Data;
 
-C_est    = out.C_est.Data;     % Coulombs
-R0_est   = out.R0_est.Data;    % Ohms
+C_est    = out.C_est.Data;  
+R0_est   = out.R0_est.Data;   
 
-% Signal      Q-Format
-% SoC         Q1.15
-% Voltage     Q8.8
-% Current     Q8.8
-% Temp        Q8.8
-% Capacity    Q16.16
-% Resistance  Q8.8
 
 fx_soc_cc  = fi(SoC_CC,  1, 16, 15);   % Q1.15
 fx_soc_ekf = fi(SoC_EKF, 1, 16, 15);
